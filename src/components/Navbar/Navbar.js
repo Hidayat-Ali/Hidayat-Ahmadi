@@ -5,6 +5,7 @@ import { IoMenuSharp, IoHomeSharp } from 'react-icons/io5';
 import { HiDocumentText } from 'react-icons/hi';
 import { BsFillGearFill } from 'react-icons/bs';
 import { MdPhone } from 'react-icons/md';
+import { BsFillMoonFill, BsFillSunFill } from 'react-icons/bs';
 import { FaUser, FaFolderOpen } from 'react-icons/fa';
 import { makeStyles } from '@material-ui/core/styles';
 import Drawer from '@material-ui/core/Drawer';
@@ -15,7 +16,7 @@ import { headerData } from '../../data/headerData';
 import { ThemeContext } from '../../contexts/ThemeContext';
 
 function Navbar() {
-    const { theme, setHandleDrawer } = useContext(ThemeContext);
+    const { theme, setHandleDrawer, changeTheme, isDark } = useContext(ThemeContext);
 
     const [open, setOpen] = useState(false);
 
@@ -227,6 +228,22 @@ function Navbar() {
                                     </span>
                                 </div>
                             </NavLink>
+                        </Fade>
+
+
+                        <Fade left>
+                            <div className={classes.drawerItem} onClick={changeTheme}>
+                                {isDark ?
+                                    <BsFillSunFill className={classes.drawerIcon} />
+                                    :
+                                    <BsFillMoonFill className={classes.drawerIcon} />
+                                }
+                                <span className={classes.drawerLinks}>
+                                    {
+                                        isDark ? "Light" : "Dark"
+                                    }
+                                </span>
+                            </div>
                         </Fade>
 
                     
