@@ -28,11 +28,18 @@ function BackToTop() {
 
   window.addEventListener("scroll", toggleVisible);
 
-  const useStyles = makeStyles(() => ({
+  const useStyles = makeStyles((t) => ({
     icon: {
       fontSize: "3rem",
       color: theme.tertiary,
     },
+    drawerIcon: {
+      fontSize: '1.6rem',
+      color: theme.tertiary,
+      [t.breakpoints.down('sm')]: {
+          fontSize: '1.385rem',
+      },
+    }
   }));
 
   const classes = useStyles();

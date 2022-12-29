@@ -19,7 +19,7 @@
     .backToTop { 
         right: -10px;
         bottom: 50px;
-        font-size: 2.75rem;
+      
     }
 }
 
@@ -31,7 +31,6 @@
     right: 30px;
     bottom: 100px;
     height: 50px;
-    font-size: 4rem;
     z-index: 999;
 }
 
@@ -39,7 +38,7 @@
     outline: none;
     border: none;
     cursor: pointer;
-    background: lightgreen;
+    background: none;
     padding: 15px;
     border-radius: 100%;
 }
