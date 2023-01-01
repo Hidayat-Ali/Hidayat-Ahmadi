@@ -11,7 +11,7 @@ import Drawer from "@material-ui/core/Drawer";
 import CloseIcon from "@material-ui/icons/Close";
 import Ahmadi_logo from "../../assets/png/Ahmadi_Family.png";
 import "./Navbar.css";
-import { headerData } from "../../data/headerData";
+// import { headerData } from "../../data/headerData";
 import { ThemeContext } from "../../contexts/ThemeContext";
 
 function Navbar() {
@@ -123,13 +123,13 @@ function Navbar() {
 
   const classes = useStyles();
 
-  const shortname = (name) => {
-    if (name.length > 12) {
-      return name.split(" ")[0];
-    } else {
-      return name;
-    }
-  };
+  // const shortname = (name) => {
+  //   if (name.length > 12) {
+  //     return name.split(" ")[0];
+  //   } else {
+  //     return name;
+  //   }
+  // };
 
   return (
     <div className="navbar ">
