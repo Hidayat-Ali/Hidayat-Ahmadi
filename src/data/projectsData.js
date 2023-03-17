@@ -11,20 +11,20 @@ import seven from '../assets/svg/projects/seven.svg'
 export const projectsData = [
     {
         id: 1,
-        projectName: 'YouTube Clone',
-        projectDesc: 'This project aims to Search the all videos that exist on Youtube',
+        projectName: 'Employee Management',
+        projectDesc: 'This project aims to build an employee management system that consolidates all information of a company',
         tags: ['React', 'CSS', 'Material Ui'],
-        code: 'https://github.com/Hidayat-Ali/Utube',
-        demo: 'hidayatahmadi-media.netlify.app/',
+        code: 'https://github.com/Hidayat-Ali/Hidayat-Ahmadi',
+        demo: 'https://github.com/Hidayat-Ali/Hidayat-Ahmadi',
         image: one
     },
     {
         id: 2,
-        projectName: 'E Shopping ',
-        projectDesc: 'This project is a E Shop that allows users to Search and purchase the items ',
-        tags: ['PHP', 'LARAVEL CSS','Blade'],
-        code: 'https://github.com/Hidayat-Ali/E-shopping-laravel',
-        demo: 'https://github.com/Hidayat-Ali/E-shopping-laravel',
+        projectName: 'Railway Tracking',
+        projectDesc: 'This project is a railway tracking system that allows users to obtain relevant information about train timing.',
+        tags: ['Django', 'Tailwind CSS'],
+        code: 'https://github.com/Hidayat-Ali/Hidayat-Ahmadi',
+        demo: 'https://github.com/Hidayat-Ali/Hidayat-Ahmadi',
         image: two
     },
     {
@@ -32,44 +32,44 @@ export const projectsData = [
         projectName: 'Weather App',
         projectDesc: 'Weather forecast systems and applications predict weather conditions based on multiple parameters.',
         tags: ['Django', 'CSS', 'Material Ui'],
-        code: 'https://github.com/Hidayat-Ali/Weather-app',
-        demo: 'https://github.com/Hidayat-Ali/Weather-app',
+        code: 'https://github.com/Hidayat-Ali/Hidayat-Ahmadi',
+        demo: 'https://github.com/Hidayat-Ali/Hidayat-Ahmadi',
         image: three
     },
     {
         id: 4,
-        projectName: 'Blog App Api',
-        projectDesc: 'This project is Blog app where users can post their blog  , delete ,edit and make their own profile in it',
-        tags: ['Laravel', 'Reactjs'],
-        code: 'https://github.com/Hidayat-Ali/laravel-blogger-app',
-        demo: 'https://github.com/Hidayat-Ali/laravel-blogger-app',
+        projectName: 'Android Patient Tracker',
+        projectDesc: 'This project involves the development of an Android application for viewing and managing patient data.',
+        tags: ['Flutter', 'Firebase'],
+        code: 'https://github.com/Hidayat-Ali/Hidayat-Ahmadi',
+        demo: 'https://github.com/Hidayat-Ali/Hidayat-Ahmadi',
         image: four
     },
     {
         id: 5,
-        projectName: 'Blog app',
-        projectDesc: 'A Simple Blog app in react and firbase ',
-        tags: ['Firebase', 'reactjs'],
-        code: 'https://github.com/Hidayat-Ali/myBlog',
-        demo: 'https://github.com/Hidayat-Ali/myBlog',
+        projectName: 'E-Commerce App',
+        projectDesc: 'A Simple E-commerce application',
+        tags: ['React Native', 'Firebase'],
+        code: 'https://github.com/Hidayat-Ali/Hidayat-Ahmadi',
+        demo: 'https://github.com/Hidayat-Ali/Hidayat-Ahmadi',
         image: five
     },
-    // {
-    //     id: 6,
-    //     projectName: 'Uber Lite',
-    //     projectDesc: 'Uber clone',
-    //     tags: ['Flutter'],
-    //     code: 'https://github.com/Hidayat-Ali/Hidayat-Ahmadi',
-    //     demo: 'https://github.com/Hidayat-Ali/Hidayat-Ahmadi',
-    //     image: six
-    // },
+    {
+        id: 6,
+        projectName: 'Uber Lite',
+        projectDesc: 'Uber clone',
+        tags: ['Flutter'],
+        code: 'https://github.com/Hidayat-Ali/Hidayat-Ahmadi',
+        demo: 'https://github.com/Hidayat-Ali/Hidayat-Ahmadi',
+        image: six
+    },
     {
         id: 7,
-        projectName: 'Covid19 Traker',
-        projectDesc: 'A simple corona tracker API app',
-        tags: ['React', 'Bootstrap'],
-        code: 'https://github.com/Hidayat-Ali/corona-tracker/tree/master',
-        demo: 'https://github.com/Hidayat-Ali/corona-tracker/tree/master',
+        projectName: 'Stock Market App',
+        projectDesc: 'A simple stock market API app',
+        tags: ['React', 'Redux', 'Bootstrap'],
+        code: 'https://github.com/Hidayat-Ali/Hidayat-Ahmadi',
+        demo: 'https://github.com/Hidayat-Ali/Hidayat-Ahmadi',
         image: seven
     },
     
