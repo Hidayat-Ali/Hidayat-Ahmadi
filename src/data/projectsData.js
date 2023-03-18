@@ -4,7 +4,7 @@ import three from '../assets/svg/projects/three.svg'
 import four from '../assets/svg/projects/four.svg'
 import five from '../assets/svg/projects/five.svg'
 import six from '../assets/svg/projects/six.svg'
-import seven from '../assets/svg/projects/seven.svg'
+
 
 
 
@@ -25,16 +25,16 @@ export const projectsData = [
         tags: ['PHP', 'LARAVEL CSS','Blade'],
         code: 'https://github.com/Hidayat-Ali/E-shopping-laravel',
         demo: 'https://github.com/Hidayat-Ali/E-shopping-laravel',
-        image: two
+        image: four
     },
     {
         id: 3,
         projectName: 'Weather App',
         projectDesc: 'Weather forecast systems and applications predict weather conditions based on multiple parameters.',
-        tags: ['Django', 'CSS', 'Material Ui'],
+        tags: ['Reactjs', 'CSS', 'Material Ui'],
         code: 'https://github.com/Hidayat-Ali/Weather-app',
         demo: 'https://github.com/Hidayat-Ali/Weather-app',
-        image: three
+        image: two
     },
     {
         id: 4,
@@ -43,7 +43,7 @@ export const projectsData = [
         tags: ['Laravel', 'Reactjs'],
         code: 'https://github.com/Hidayat-Ali/laravel-blogger-app',
         demo: 'https://github.com/Hidayat-Ali/laravel-blogger-app',
-        image: four
+        image: five
     },
     {
         id: 5,
@@ -54,15 +54,15 @@ export const projectsData = [
         demo: 'https://github.com/Hidayat-Ali/myBlog',
         image: five
     },
-    // {
-    //     id: 6,
-    //     projectName: 'Uber Lite',
-    //     projectDesc: 'Uber clone',
-    //     tags: ['Flutter'],
-    //     code: 'https://github.com/Hidayat-Ali/Hidayat-Ahmadi',
-    //     demo: 'https://github.com/Hidayat-Ali/Hidayat-Ahmadi',
-    //     image: six
-    // },
+    {
+        id: 6,
+        projectName: 'Movie  App',
+        projectDesc: 'Movie App',
+        tags: ['Reactjs ,HTML,BOOTSTRAP,RestApi'],
+        code: 'https://github.com/Hidayat-Ali/Movie-app',
+        demo: 'https://github.com/Hidayat-Ali/Movie-appi',
+        image: six
+    },
     {
         id: 7,
         projectName: 'Covid19 Traker',
@@ -70,23 +70,9 @@ export const projectsData = [
         tags: ['React', 'Bootstrap'],
         code: 'https://github.com/Hidayat-Ali/corona-tracker/tree/master',
         demo: 'https://github.com/Hidayat-Ali/corona-tracker/tree/master',
-        image: seven
+        image: three
     },
     
 ]
 
 
-// Do not remove any fields.
-// Leave it blank instead as shown below
-
-/* 
-{
-    id: 1,
-    projectName: 'Car Pooling System',
-    projectDesc: '',
-    tags: ['Flutter', 'React'],
-    code: '',
-    demo: '',
-    image: ''
-}, 
-*/
