@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Hidayat-Ahmadi/static/css/main.43319585.css",
-    "main.js": "/Hidayat-Ahmadi/static/js/main.ca614772.js",
+    "main.js": "/Hidayat-Ahmadi/static/js/main.82adf0ef.js",
     "static/js/787.c4564cb6.chunk.js": "/Hidayat-Ahmadi/static/js/787.c4564cb6.chunk.js",
     "static/media/four.svg": "/Hidayat-Ahmadi/static/media/four.797cac62273af3693cd624c5f58e33b5.svg",
     "static/media/resume.pdf": "/Hidayat-Ahmadi/static/media/resume.23e049ebddd90c43fd9a.pdf",
@@ -138,11 +138,11 @@
     "static/media/vuetifyjs.svg": "/Hidayat-Ahmadi/static/media/vuetifyjs.8a22a3ec81ad62e97094feab6e7ee0fb.svg",
     "static/media/bulma.svg": "/Hidayat-Ahmadi/static/media/bulma.5910d4416e077262d0264109649ab214.svg",
     "main.43319585.css.map": "/Hidayat-Ahmadi/static/css/main.43319585.css.map",
-    "main.ca614772.js.map": "/Hidayat-Ahmadi/static/js/main.ca614772.js.map",
+    "main.82adf0ef.js.map": "/Hidayat-Ahmadi/static/js/main.82adf0ef.js.map",
     "787.c4564cb6.chunk.js.map": "/Hidayat-Ahmadi/static/js/787.c4564cb6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.43319585.css",
-    "static/js/main.ca614772.js"
+    "static/js/main.82adf0ef.js"
   ]
 }
